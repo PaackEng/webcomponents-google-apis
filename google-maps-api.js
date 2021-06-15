@@ -70,7 +70,7 @@ Polymer({
      */
     version: {
       type: String,
-      value: '3.exp'
+      value: 'beta'
     },
 
     /**
@@ -116,7 +116,7 @@ Polymer({
     var url = mapsUrl + '&v=' + version;
 
     // Always load all Maps API libraries.
-    url += '&libraries=drawing,geometry,places,visualization';
+    url += '&libraries=drawing,geometry,places,visualization,journeySharing';
 
     if (apiKey && !clientId) {
       url += '&key=' + apiKey;

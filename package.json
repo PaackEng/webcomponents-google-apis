@@ -1,5 +1,5 @@
 {
-  "description": "Web components to load Google API libraries",
+  "description": "Fork of \"Web components to load Google API libraries\".",
   "keywords": [
     "web-component",
     "web-components",
@@ -7,9 +7,9 @@
     "google",
     "apis"
   ],
-  "repository": "GoogleWebComponents/google-apis",
-  "homepage": "https://github.com/GoogleWebComponents/google-apis/",
-  "name": "@google-web-components/google-apis",
+  "repository": "PaackEng/webcomponents-google-apis",
+  "homepage": "https://github.com/PaackEng/webcomponents-google-apis/",
+  "name": "@PaackEng/webcomponents-google-apis",
   "version": "3.0.1",
   "resolutions": {
     "inherits": "2.0.3",
@@ -30,5 +30,8 @@
   "devDependencies": {
     "@polymer/iron-component-page": "^3.0.0-pre.19",
     "@webcomponents/webcomponentsjs": "^2.0.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }
